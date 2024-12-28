@@ -1,7 +1,7 @@
 import numpy as np
 
 # reads in data from file
-with open("example.txt", "r") as file:
+with open("test.txt", "r") as file:
     data = np.array(list(file.read()), dtype=int)
     # adds 0 to last file with NO partitions after
     if len(data) % 2 != 0:
